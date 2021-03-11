@@ -1,0 +1,14 @@
+details {
+  padding: 10px 20px 20px;
+
+  summary {
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  p {
+    overflow-wrap: break-word;
+    user-select: text;
+    margin-bottom: 0;
+  }
+}
