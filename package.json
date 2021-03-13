@@ -1,8 +1,8 @@
 {
-  "name": "share-qr",
-  "version": "5.0.0",
-  "description": "Share selected text or page URL as QR code",
-  "author": "Jakub Biesiada",
+  "name": "<TODO>",
+  "version": "1.0.0",
+  "description": "<TODO>",
+  "author": "<TODO>",
   "license": "MIT",
   "scripts": {
     "release": "rimraf dist/* && npm run prettier && npm run lint && npm run build",
@@ -14,8 +14,7 @@
   },
   "dependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-qr-hooks": "^1.0.7"
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",

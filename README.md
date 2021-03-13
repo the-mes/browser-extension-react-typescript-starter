@@ -1,28 +1,28 @@
-# ShareQR
+# <TODO>
 
-<img src="https://raw.githubusercontent.com/pluginsky/share-qr/master/assets/preview.png" />
+<img src="https://raw.githubusercontent.com/<TODO>/<TODO>/master/assets/preview.png" />
 
 ## About
 
-Share selected text or page URL as QR code
+<TODO>
 
 ##### Main Features
 
-- display QR code for URL
-- display QR code for selected text or copy/paste/cut text from clipboard
+- <TODO>
+- <TODO>
 
 ## Setup
 
 ##### 1. Clone repo
 
 ```sh
-git clone https://github.com/JB1905/share-qr.git
+git clone https://github.com/<TODO>/<TODO>.git
 ```
 
 ##### 2. Go to directory
 
 ```sh
-cd share-qr
+cd <TODO>
 ```
 
 ##### 3. Install dependencies
@@ -64,4 +64,4 @@ npm run watch
 
 ## License
 
-This project is licensed under the MIT License © 2020-present Jakub Biesiada
+This project is licensed under the MIT License © <TODO>-present <TODO>
