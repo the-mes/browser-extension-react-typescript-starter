@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { t } from '../shared/helpers/translate';
 
 import './popup.scss';
