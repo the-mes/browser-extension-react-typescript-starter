@@ -1,28 +1,28 @@
-# <TODO>
+# browser-extension-react-typescript-starter
 
-<img src="https://raw.githubusercontent.com/<TODO>/<TODO>/master/assets/preview.png" />
+<img src="https://raw.githubusercontent.com/the-mes/browser-extension-react-typescript-starter/master/assets/preview.png" />
 
 ## About
 
-<TODO>
+Template for browser extension (Chromium based browsers and Firefox support)
 
 ##### Main Features
 
-- <TODO>
-- <TODO>
+- Feature 1
+- Feature 2
 
 ## Setup
 
 ##### 1. Clone repo
 
 ```sh
-git clone https://github.com/<TODO>/<TODO>.git
+git clone https://github.com/the-mes/browser-extension-react-typescript-starter.git
 ```
 
 ##### 2. Go to directory
 
 ```sh
-cd <TODO>
+cd browser-extension-react-typescript-starter
 ```
 
 ##### 3. Install dependencies
@@ -64,4 +64,4 @@ npm run watch
 
 ## License
 
-This project is licensed under the MIT License © <TODO>-present <TODO>
+This project is licensed under the MIT License © 2021-present Jakub Biesiada

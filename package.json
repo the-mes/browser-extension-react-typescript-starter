@@ -1,8 +1,8 @@
 {
-  "name": "<TODO>",
+  "name": "browser-extension-react-typescript-starter",
   "version": "1.0.0",
-  "description": "<TODO>",
-  "author": "<TODO>",
+  "description": "Template for browser extension (Chromium based browsers and Firefox support)",
+  "author": "Jakub Biesiada",
   "license": "MIT",
   "scripts": {
     "release": "rimraf dist/* && npm run prettier && npm run lint && npm run build",

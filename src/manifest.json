@@ -1,22 +1,22 @@
 {
   "manifest_version": 2,
-  "name": "<DISPLAY_NAME_HERE>",
+  "name": "Browser Extension React TypeScript Starter",
   "description": "__MSG_extensionDescription__",
   "version": "1.0.0",
-  "author": "<AUTHOR_HERE>",
-  "homepage_url": "https://github.com/<TODO>/<TODO>",
+  "author": "Jakub Biesiada",
+  "homepage_url": "https://github.com/the-mes/browser-extension-react-typescript-starter",
   "icons": {
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
   "browser_action": {
     "default_icon": "icons/icon48.png",
-    "default_title": "<TODO>",
+    "default_title": "Browser Extension React TypeScript Starter",
     "default_popup": "popup.html"
   },
   "background": {
     "scripts": ["background.js"]
   },
-  "permissions": ["<TODO>"],
+  "permissions": [],
   "default_locale": "en"
 }
