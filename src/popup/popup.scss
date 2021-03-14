@@ -3,4 +3,8 @@
   flex-direction: column;
   max-height: 500px;
   width: 360px;
+
+  &__title {
+    font-size: 3rem;
+  }
 }
