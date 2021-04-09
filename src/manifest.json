@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Browser Extension React TypeScript Starter",
   "description": "__MSG_extensionDescription__",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "author": "Jakub Biesiada",
   "homepage_url": "https://github.com/the-mes/browser-extension-react-typescript-starter",
   "icons": {
