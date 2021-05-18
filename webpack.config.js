@@ -35,4 +35,4 @@ module.exports = (_env, argv) => ({
       ],
     }),
   ],
-};
+});
