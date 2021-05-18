@@ -1,9 +1,9 @@
 const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
 
-module.exports = {
-  mode: 'development',
-  devtool: 'inline-source-map',
+module.exports = (_env, argv) => ({
+  mode: argv.mode || 'development',
+  devtool: argv.mode === 'production' ? false : 'inline-source-map',
   entry: {
     background: './src/background.ts',
     popup: './src/popup/index.tsx',
@@ -27,8 +27,11 @@ module.exports = {
       patterns: [
         'src/manifest.json',
         'src/popup/popup.html',
-        { from: 'src/_locales', to: '_locales' },
-        { from: 'src/icons', to: 'icons' },
+        // TODO
+        'src/_locales',
+        'src/icons',
+        // { from: 'src/_locales', to: '_locales' },
+        // { from: 'src/icons', to: 'icons' },
       ],
     }),
   ],

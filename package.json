@@ -6,8 +6,9 @@
   "license": "MIT",
   "scripts": {
     "release": "rimraf dist/* && npm run prettier && npm run lint && npm run build",
-    "build": "webpack",
-    "watch": "npm run build -- --watch",
+    "//clean": "TODO",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch",
     "lint": "eslint 'src/**/*.{tsx,ts}' --fix",
     "prettier": "prettier --write 'src/**/*.{html,tsx,ts,scss,css}'",
     "commit": "git-cz"
