@@ -1,11 +1,4 @@
 {
-  "compilerOptions": {
-    "sourceMap": true,
-    "target": "ES6",
-    "module": "CommonJS",
-    "jsx": "react-jsx",
-    "esModuleInterop": true,
-    "resolveJsonModule": true
-  },
-  "exclude": ["node_modules"]
+  "extends": "@tsconfig/create-react-app/tsconfig.json",
+  "include": ["src", "index.d.ts"]
 }

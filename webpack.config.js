@@ -27,11 +27,8 @@ module.exports = (_env, argv) => ({
       patterns: [
         'src/manifest.json',
         'src/popup/popup.html',
-        // TODO
-        'src/_locales',
-        'src/icons',
-        // { from: 'src/_locales', to: '_locales' },
-        // { from: 'src/icons', to: 'icons' },
+        { from: 'src/_locales', to: '_locales' },
+        { from: 'src/icons', to: 'icons' },
       ],
     }),
   ],

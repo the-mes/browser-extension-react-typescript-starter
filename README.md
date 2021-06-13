@@ -1,31 +1,31 @@
 # browser-extension-react-typescript-starter
 
-<img src="https://raw.githubusercontent.com/the-mes/browser-extension-react-typescript-starter/master/assets/preview.png" />
+<img src="https://raw.githubusercontent.com/the-mes/browser-extension-react-typescript-starter/main/assets/preview.png" />
 
 ## About
 
 Template for browser extension (Chromium based browsers and Firefox support)
 
-##### Main Features
+### Main Features
 
 - Feature 1
 - Feature 2
 
 ## Setup
 
-##### 1. Clone repo
+### 1. Clone repo
 
 ```sh
 git clone https://github.com/the-mes/browser-extension-react-typescript-starter.git
 ```
 
-##### 2. Go to directory
+### 2. Go to directory
 
 ```sh
 cd browser-extension-react-typescript-starter
 ```
 
-##### 3. Install dependencies
+### 3. Install dependencies
 
 ```sh
 yarn
@@ -34,7 +34,7 @@ yarn
 npm i
 ```
 
-##### 4. Run
+### 4. Run
 
 ```sh
 yarn watch
@@ -43,13 +43,13 @@ yarn watch
 npm run watch
 ```
 
-### Chrome
+#### Chrome
 
 - open the Extension Management page by navigating to `chrome://extensions`
 - enable Developer Mode by clicking the toggle switch next to Developer mode
 - click the `LOAD UNPACKED` button and select the **dist** in the extension directory
 
-### Firefox
+#### Firefox
 
 - enter `about:debugging` in the URL bar
 - click `This Firefox`
